@@ -1,0 +1,36 @@
+_state*
+.DS_Store
+.idp
+idp
+debug
+!idp/
+statestore/*
+vault/*
+config/config.toml
+config/dex.yml
+*.swp
+orgs/
+*.pem
+!config/certs/*.pem
+*/main/main.go
+test.txt
+/bin/
+/build/
+/vendor/
+vendor/
+/.docker/
+/docker-compose.override.yml
+/.licensei.cache
+# /.env
+__data/
+
+# IDE integration
+/.idea/*
+.idea/
+!/.idea/copyright/
+!/.idea/*.iml
+!/.idea/externalDependencies.xml
+!/.idea/go.imports.xml
+!/.idea/modules.xml
+!/.idea/runConfigurations/
+!/.idea/scopes/
